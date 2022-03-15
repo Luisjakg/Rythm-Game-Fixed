@@ -1,0 +1,19 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 204428277622.8,"dur": 1694499.7, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 204428298071.5,"dur": 66091.4, "ph":"X", "name": "Preprocess Player"},
+{}
+
+],
+"meta_datetime": "03/15/2022 00:16:26",
+"meta_command_line": "\"Y:\\Unity Editors\\2021.2.12f1\\Editor\\Unity.exe\" -projectpath \"Y:\\GitHub\\Rythm-Game\\Rythm Game\" -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-Luisja -hubSessionId ea973570-a3e1-11ec-83de-0568783d8ab7 -accessToken 8Ltrrq_smAtGR3fa5pBZmSqCgnILbL2bbcHdO49QPYU00ff",
+"meta_command_line_args": "Y:\\Unity Editors\\2021.2.12f1\\Editor\\Unity.exe -projectpath Y:\\GitHub\\Rythm-Game\\Rythm Game -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-Luisja -hubSessionId ea973570-a3e1-11ec-83de-0568783d8ab7 -accessToken 8Ltrrq_smAtGR3fa5pBZmSqCgnILbL2bbcHdO49QPYU00ff",
+"meta_user_name": "Luisja",
+"meta_os_version": "Microsoft Windows NT 10.0.19043.0",
+"meta_cpu_count": "12"
+}
